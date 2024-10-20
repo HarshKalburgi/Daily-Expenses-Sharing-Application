@@ -1,0 +1,25 @@
+{
+  "name": "daily-expenses-sharing-app",
+  "version": "1.0.0",
+  "description": "A backend for a daily-expenses sharing application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest --runInBand --detectOpenHandles"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "dotenv": "^10.0.0",
+    "joi": "^17.4.2",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "jest": "^27.3.1",
+    "supertest": "^6.1.6"
+  }
+}
